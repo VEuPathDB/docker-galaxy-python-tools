@@ -1,0 +1,7 @@
+= Python Galaxy Tools Environment
+
+Alpine linux container with the necessary prerequisites
+installed to run the Python2.7 VEuPathGalaxy tool set.
+
+This container is a base image and does not itself contain
+the VEuPathGalaxy tool set.
