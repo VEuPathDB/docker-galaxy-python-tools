@@ -13,5 +13,5 @@ RUN echo "@community http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /et
       gcc \
       g++ \
       openblas-dev@community \
-    && pip install numpy cython \
-    && pip install 'biom-format==2.1.7'
+    && pip install --no-cache-dir numpy cython \
+    && pip install --no-cache-dir 'biom-format==2.1.7'
